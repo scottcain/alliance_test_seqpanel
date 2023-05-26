@@ -11,7 +11,7 @@ which runs a local test instance at localhost:4173
 
 ## Deploy to IO
 
-  yarn deploy
+    yarn deploy
 
 which puts a test instance on https://scottcain.github.io/alliance_test_seqpanel/
 
