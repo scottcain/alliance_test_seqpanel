@@ -3,22 +3,23 @@ simple test app for GenericGeneSeqPanel with Alliance data
 
 ## Overview
 
-  yarn
-  yarn build
-  yarn preview
+    yarn
+    yarn build
+    yarn preview
 
 which runs a local test instance at localhost:4173
 
 ## Deploy to IO
 
-  yarn deploy
+    yarn deploy
 
 which puts a test instance on https://scottcain.github.io/alliance_test_seqpanel/
 
 ## What is getting tested?
 
 That the configuration works to fetch feature and sequence data from 
-the Alliance JBrowse S3 bucket.  Specifically, these parameters:
+the Alliance JBrowse S3 bucket.  Specifically, these parameters in
+`src/App.tsx`:
 
       refseq="6"
       start={18170686}
