@@ -3,9 +3,9 @@ simple test app for GenericGeneSeqPanel with Alliance data
 
 ## Overview
 
-  yarn
-  yarn build
-  yarn preview
+    yarn
+    yarn build
+    yarn preview
 
 which runs a local test instance at localhost:4173
 
